@@ -1,0 +1,40 @@
+body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(225, 255, 94);
+        flex-direction: column;
+}
+h1{
+   align-items: center;
+   justify-content: center;
+   color: brown;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+   font-size: 80px;
+
+}
+button {
+        padding: 5px 5px;
+        font-size: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: pink;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px royalblue;
+        cursor: pointer;
+        transition: all 0.5s;
+        margin-bottom: 1em;
+    }
+button:focus{
+        outline:none;
+    }
+button:hover{
+        background-color: salmon;
+        color: snow;
+    }
+button:active{
+        box-shadow: none;
+        color: violet;
+    }
