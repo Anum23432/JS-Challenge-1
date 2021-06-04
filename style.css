@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(197, 196, 194);
+    flex-direction: column;
+}
+h1 {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 80, 46);
+    border-bottom: solid rgb(255, 0, 0);
+    margin-bottom: 200px;
+}
+button {
+    padding: 5px 5px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(177, 94, 255);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px white;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 1em;
+}
+button:focus{
+    outline:none;
+}
+button:hover{
+    background-color: rgb(252, 64, 44);
+    color: snow;
+}
+button:active{
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+}
